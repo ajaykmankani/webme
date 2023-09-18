@@ -87,7 +87,7 @@
 
 	<section id="home" class="main-banner parallaxie" style="background: url('uploads/banner-01.webp')">
 		<div class="heading">
-			<h1>Welcome to WeMe Studio</h1>
+			<h1>Welcome to WebMe Studio</h1>
 			<h3 class="cd-headline clip is-full-width">
 				<span>One stop solution for your </span>
 				<span class="cd-words-wrapper">
