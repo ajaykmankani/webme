@@ -570,7 +570,7 @@
 				<div class="col-md-12">
 					<div class="contact_form">
 						<div id="message"></div>
-						<form id="contactForm" name="sentMessage" action="{{ route('query') }}" method="POST">
+						<form id="contactForm" name="sentMessage" action="{{ route('query.create') }}" method="POST">
                             @csrf
 							<div class="row">
 								<div class="col-md-6">
