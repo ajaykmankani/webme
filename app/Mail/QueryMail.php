@@ -19,7 +19,7 @@ class QueryMail extends Mailable
      */
     public function __construct($mailData)
     {
-        $mailData = $this->mailData;
+        $this->mailData = $mailData ;
     }
 
     /**
