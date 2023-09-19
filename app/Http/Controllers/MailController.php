@@ -14,7 +14,7 @@ class MailController extends Controller
             'body'=>'This is a test mail.'
         ];
 
-        Mail::to('inquery@webmestudio.com')->send(new QueryMail($mailData));
+        Mail::to('ajaykmankani66@gmail.com')->send(new QueryMail($mailData));
         dd('mail sent successfully');
     }
 }
