@@ -38,7 +38,7 @@ class QueryMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'view.email.queryMail',
+            view: 'view.mail.queryMail',
         );
     }
 
