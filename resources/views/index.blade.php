@@ -85,7 +85,7 @@
 		</div>
 	</nav>
 
-	<section id="home" class="main-banner parallaxie" style="background: url('uploads/banner-01.webp')">
+	<section id="home" class="main-banner parallaxie" style="background: url('uploads/banner-012.webp')">
 		<div class="heading">
 			<h1>Welcome to WebMe Studio</h1>
 			<h3 class="cd-headline clip is-full-width">
