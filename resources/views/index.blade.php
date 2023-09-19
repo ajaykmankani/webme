@@ -68,9 +68,9 @@
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
 					</li>
-					<li class="nav-item">
+					{{-- <li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
-					</li>
+					</li> --}}
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#team">Our Team</a>
 					</li>
