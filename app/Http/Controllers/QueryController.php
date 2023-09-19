@@ -43,7 +43,7 @@ class QueryController extends Controller
             'message' => $request->message,
         ];
 
-        Mail::send(['inquiry@webmestudio.com','ajaykmankani66@gmail.com','manisha.km8920@gmail.com'])->send(new QueryMail($mailData));
+        Mail::to(['inquiry@webmestudio.com','ajaykmankani66@gmail.com','manisha.km8920@gmail.com'])->send(new QueryMail($mailData));
         return redirect()->back()->with('success', 'Message Sent Successfully');
     }
 
