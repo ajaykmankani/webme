@@ -8,11 +8,13 @@
     <title>Document</title>
 </head>
 <body>
-    <p class="align-center">{{ $mailData['title'] }}</p>
+    <p class="align-center">Query Mail</p>
 
 
-<p>{{ $mailData['body'] }}</p>
-<p > Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, beatae unde. Eum, omnis, iste provident tempore commodi sapiente, vero dolorum soluta cum rem quod ad. Totam ullam nisi omnis quisquam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit saepe excepturi, impedit odio quos, omnis fuga doloribus aliquid voluptates autem aspernatur ipsam eum porro explicabo obcaecati iste molestiae tempore blanditiis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur rem maxime sapiente, voluptatibus obcaecati alias asperiores laboriosam odio eligendi voluptatum error impedit consectetur reprehenderit unde qui quam fuga suscipit distinctio.</p>
+<p>From: {{ $mailData['name'] }}</p>
+<p>Email: {{ $mailData['email'] }}</p>
+<p>Phone: {{ $mailData['phone'] }}</p>
+<p > {{ $mailData['message'] }}</p>
 </body>
 </html>
 
