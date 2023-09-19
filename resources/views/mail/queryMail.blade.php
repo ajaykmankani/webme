@@ -1,4 +1,4 @@
-<?php
+
 
 
 {{ $mailData->title }}
