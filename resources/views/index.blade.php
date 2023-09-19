@@ -46,7 +46,7 @@
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
 		<div class="container">
 			<a class="navbar-brand js-scroll-trigger" href="#page-top">
-				<img class="img-fluid" src="{{ asset('images/logo.png') }}" alt="" style="width:200px" />
+				<img class="img-fluid" src="{{ asset('images/logo.webp') }}" alt="" style="width:200px" />
 			</a>
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
 				data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -135,7 +135,7 @@
 
 				<div class="col-md-6">
 					<div class="right-box-pro wow fadeIn">
-						<img src="{{ asset('uploads/about_04.jpg') }}" alt="" class="img-fluid img-rounded">
+						<img src="{{ asset('uploads/about_04.webp') }}" alt="" class="img-fluid img-rounded">
 					</div><!-- end media -->
 				</div><!-- end col -->
 			</div><!-- end row -->
@@ -231,9 +231,9 @@
 			<div class="gallery-list row">
 				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
 					<div class="gallery-single fix">
-						<img src="{{ asset('uploads/gallery_img-01.jpg') }}" class="img-fluid" alt="Image">
+						<img src="{{ asset('uploads/gallery_img-01.webp') }}" class="img-fluid" alt="Image">
 						<div class="img-overlay">
-							<a href="uploads/gallery_img-01.jpg') }}" data-rel="prettyPhoto[gal]"
+							<a href="uploads/gallery_img-01.webp') }}" data-rel="prettyPhoto[gal]"
 								class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
 						</div>
 					</div>
@@ -241,9 +241,9 @@
 
 				<div class="col-md-4 col-sm-6 gallery-grid gal_c gal_b">
 					<div class="gallery-single fix">
-						<img src="{{ asset('uploads/gallery_img-02.jpg') }}" class="img-fluid" alt="Image">
+						<img src="{{ asset('uploads/gallery_img-02.webp') }}" class="img-fluid" alt="Image">
 						<div class="img-overlay">
-							<a href="uploads/gallery_img-02.jpg') }}" data-rel="prettyPhoto[gal]"
+							<a href="uploads/gallery_img-02.webp') }}" data-rel="prettyPhoto[gal]"
 								class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
 						</div>
 					</div>
@@ -251,9 +251,9 @@
 
 				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
 					<div class="gallery-single fix">
-						<img src="{{ asset('uploads/gallery_img-03.jpg') }}" class="img-fluid" alt="Image">
+						<img src="{{ asset('uploads/gallery_img-03.webp') }}" class="img-fluid" alt="Image">
 						<div class="img-overlay">
-							<a href="uploads/gallery_img-03.jpg') }}" data-rel="prettyPhoto[gal]"
+							<a href="uploads/gallery_img-03.webp') }}" data-rel="prettyPhoto[gal]"
 								class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
 						</div>
 					</div>
@@ -261,9 +261,9 @@
 
 				<div class="col-md-4 col-sm-6 gallery-grid gal_b gal_a">
 					<div class="gallery-single fix">
-						<img src="{{ asset('uploads/gallery_img-04.jpg') }}" class="img-fluid" alt="Image">
+						<img src="{{ asset('uploads/gallery_img-04.webp') }}" class="img-fluid" alt="Image">
 						<div class="img-overlay">
-							<a href="uploads/gallery_img-04.jpg') }}" data-rel="prettyPhoto[gal]"
+							<a href="uploads/gallery_img-04.webp') }}" data-rel="prettyPhoto[gal]"
 								class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
 						</div>
 					</div>
@@ -271,9 +271,9 @@
 
 				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
 					<div class="gallery-single fix">
-						<img src="{{ asset('uploads/gallery_img-05.jpg') }}" class="img-fluid" alt="Image">
+						<img src="{{ asset('uploads/gallery_img-05.webp') }}" class="img-fluid" alt="Image">
 						<div class="img-overlay">
-							<a href="uploads/gallery_img-05.jpg') }}" data-rel="prettyPhoto[gal]"
+							<a href="uploads/gallery_img-05.webp') }}" data-rel="prettyPhoto[gal]"
 								class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
 						</div>
 					</div>
@@ -281,9 +281,9 @@
 
 				<div class="col-md-4 col-sm-6 gallery-grid gal_c gal_a">
 					<div class="gallery-single fix">
-						<img src="{{ asset('uploads/gallery_img-06.jpg') }}" class="img-fluid" alt="Image">
+						<img src="{{ asset('uploads/gallery_img-06.webp') }}" class="img-fluid" alt="Image">
 						<div class="img-overlay">
-							<a href="uploads/gallery_img-06.jpg') }}" data-rel="prettyPhoto[gal]"
+							<a href="uploads/gallery_img-06.webp') }}" data-rel="prettyPhoto[gal]"
 								class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
 						</div>
 					</div>
@@ -294,82 +294,7 @@
 	</div>
 
 
-	<div id="blog" class="section lb">
-		<div class="container">
-			<div class="section-title text-center">
-				<h3>Blog</h3>
-				<p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.
-				</p>
-			</div><!-- end title -->
 
-			<div class="row">
-				<div class="col-md-4 col-sm-6 col-lg-4">
-					<div class="post-box">
-						<div class="post-thumb">
-							<img src="{{ asset('uploads/blog-01.jpg') }}" class="img-fluid" alt="post-img" />
-							<div class="date">
-								<span>06</span>
-								<span>Aug</span>
-							</div>
-						</div>
-						<div class="post-info">
-							<h4>Quisque auctor lectus interdum nisl accumsan venenatis.</h4>
-							<ul>
-								<li>by admin</li>
-								<li>Apr 21, 2018</li>
-								<li><a href="#"><b> Comments</b></a></li>
-							</ul>
-							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam
-								at eget quam. Integer ultricies et magna quis.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-lg-4">
-					<div class="post-box">
-						<div class="post-thumb">
-							<img src="{{ asset('uploads/blog-02.jpg') }}" class="img-fluid" alt="post-img" />
-							<div class="date">
-								<span>06</span>
-								<span>Aug</span>
-							</div>
-						</div>
-						<div class="post-info">
-							<h4>Quisque auctor lectus interdum nisl accumsan venenatis.</h4>
-							<ul>
-								<li>by admin</li>
-								<li>Apr 21, 2018</li>
-								<li><a href="#"><b> Comments</b></a></li>
-							</ul>
-							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam
-								at eget quam. Integer ultricies et magna quis.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-lg-4">
-					<div class="post-box">
-						<div class="post-thumb">
-							<img src="{{ asset('uploads/blog-03.jpg') }}" class="img-fluid" alt="post-img" />
-							<div class="date">
-								<span>06</span>
-								<span>Aug</span>
-							</div>
-						</div>
-						<div class="post-info">
-							<h4>Quisque auctor lectus interdum nisl accumsan venenatis.</h4>
-							<ul>
-								<li>by admin</li>
-								<li>Apr 21, 2018</li>
-								<li><a href="#"><b> Comments</b></a></li>
-							</ul>
-							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam
-								at eget quam. Integer ultricies et magna quis.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
 
 	<div id="team" class="section wb">
 		<div class="container">
@@ -383,7 +308,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="our-team">
 						<div class="pic">
-							<img src="{{ asset('uploads/img-2.jpg') }}">
+							<img src="{{ asset('uploads/img-2.webp') }}">
 						</div>
 						<div class="team-content">
 							<h3 class="title">Kristiana</h3>
@@ -401,7 +326,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="our-team">
 						<div class="pic">
-							<img src="{{ asset('uploads/img-4.jpg') }}">
+							<img src="{{ asset('uploads/img-4.webp') }}">
 						</div>
 						<div class="team-content">
 							<h3 class="title">Miranda joy</h3>
@@ -419,7 +344,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="our-team">
 						<div class="pic">
-							<img src="{{ asset('uploads/img-1.jpg') }}">
+							<img src="{{ asset('uploads/img-1.webp') }}">
 						</div>
 						<div class="team-content">
 							<h3 class="title">Williamson</h3>
@@ -437,7 +362,7 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="our-team">
 						<div class="pic">
-							<img src="{{ asset('uploads/img-3.jpg') }}">
+							<img src="{{ asset('uploads/img-3.webp') }}">
 						</div>
 						<div class="team-content">
 							<h3 class="title">Steve Thomas</h3>
@@ -618,7 +543,7 @@
 	<div class="copyrights">
 		<div class="container">
 			<div class="footer-distributed">
-				<a href="#"><img src="{{ asset('images/logo.png') }}" alt="" style="width: 100px;" /></a>
+				<a href="#"><img src="{{ asset('images/logo.webp') }}" alt="" style="width: 100px;" /></a>
 				<div class="footer-center">
 					<p class="footer-links">
 						<a href="#">Home</a>
