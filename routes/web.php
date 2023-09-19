@@ -21,4 +21,4 @@ Route::get('/', function () {
 
 
 Route::get('send_mail', [MailController::class, 'index']);
-Route::resource(QueryController::class);
+Route::resource('query',QueryController::class);
