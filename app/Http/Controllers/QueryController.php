@@ -33,7 +33,7 @@ class QueryController extends Controller
         $request->validate([
             'name' => 'required',
             'email' => 'required|email',
-            'phone' => 'required|phone',
+            'phone' => 'required',
         ]);
 
         $mailData = [
