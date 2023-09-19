@@ -570,7 +570,7 @@
 				<div class="col-md-12">
 					<div class="contact_form">
 						<div id="message"></div>
-						<form id="contactForm" name="sentMessage" action="{{ route('query.create') }}" method="POST">
+						<form  name="sentMessage" action="{{ route('query.create') }}" method="POST">
                             @csrf
 							<div class="row">
 								<div class="col-md-6">
@@ -646,7 +646,7 @@
 	<script src="{{ asset('js/headline.js') }}"></script>
 	<!-- Contact form JavaScript -->
 	<script src="{{ asset('js/jqBootstrapValidation.js') }}"></script>
-	<script src="{{ asset('js/contact_me.js') }}"></script>
+	{{-- <script src="{{ asset('js/contact_me.js') }}"></script> --}}
 	<!-- ALL PLUGINS -->
 	<script src="{{ asset('js/custom.js') }}"></script>
 	<script src="{{ asset('js/jquery.vide.js') }}"></script>
